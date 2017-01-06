@@ -85,7 +85,7 @@ exports.getCommands = function(){
 }
 
 function getSpotify(callback){
-    spotify.facebookLogin('123456', 'XXXAUTHXXX', callback)
+    Spotify.facebookLogin('123456', 'XXXAUTHXXX', callback)
 }
 
 function checkSpotifyUri(spotify, uri, e, bot, callback){
